@@ -91,7 +91,7 @@ def main():
     try:
         session_key = init_mah(config['mah_api_key'])
         if session_key:
-            print(f'VoiceSender is running, session_key is { session_key }')
+            print(f'VoiceSender is running, session_key is { session_key }\nPlease send voice to the specified group chat by the following command:\nsend [content] to [groupid]')
             while(True):
                 data = get_lastmsg(session_key, 1)
                 if data:
