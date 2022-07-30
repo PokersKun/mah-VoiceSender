@@ -18,7 +18,7 @@ mah_api_url: http://127.0.0.1:8080
 # verifyKey 验证密钥
 mah_api_key: xxx
 
-# ChartLearning 的语音 API 设置
+# ChatLearning 的语音 API 设置
 # API 地址
 voc_api_url: http://xxx:19630
 # 使用的线上语音训练集 [pipimeng/azusa200k/ferret70k/pretrained]
