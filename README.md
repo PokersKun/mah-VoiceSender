@@ -49,8 +49,8 @@ git clone https://github.com/PokersKun/mah-VoiceSender.git
 ### 2. 安装依赖
 
 ```bash
-cd mah-voicesender
-pip3 install -r requirements.txt
+cd mah-VoiceSender
+pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
 ```
 
 ### 3. 运行程序
